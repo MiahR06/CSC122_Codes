@@ -1,15 +1,21 @@
 #include <iostream>
 using namespace std;
 
-class Circle{
+class Shape{
 
 };
 
-class Rectangle{
+class Circle : public Shape{
+public:
+
 
 };
 
-class RightTriangle{
+class Rectangle : public Shape{
+
+};
+
+class RightTriangle : public Shape{
 
 };
 
