@@ -31,7 +31,6 @@ public:
 
 class bad_egg : public exception{
 public:
-    cout << "This egg is rotten..." << endl;
 
 };
 
